@@ -360,7 +360,7 @@ def _counts_in_cylinders_process_args(
             sample2[:, 0],
             sample2[:, 2],
             sample2[:, 2],
-            min_size=[max_rp_max * 3.0, max_rp_max * 3.0, max_pi_max * 3.0],
+            min_size=[max_rp_max * 3.001, max_rp_max * 3.001, max_pi_max * 3.001],
         )
         x1 = sample1[:, 0]
         y1 = sample1[:, 1]
